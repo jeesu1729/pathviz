@@ -43,13 +43,13 @@ export function Dfs(grid, startNode, finishNode) {
     return neighbors.filter((neighbor) => !neighbor.isVisited);
   }
   
-  function getAllNodes(grid) {
-    const nodes = [];
-    for (const row of grid) {
-      for (const node of row) {
-        nodes.push(node);
-      }
-    }
-    return nodes;
-  }
+  // function getAllNodes(grid) {
+  //   const nodes = [];
+  //   for (const row of grid) {
+  //     for (const node of row) {
+  //       nodes.push(node);
+  //     }
+  //   }
+  //   return nodes;
+  // }
   
